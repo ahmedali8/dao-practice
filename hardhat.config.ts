@@ -90,6 +90,9 @@ const config: HardhatUserConfig = {
     excludeContracts: [],
     src: "./contracts",
   },
+  mocha: {
+    timeout: 200000, // 200 seconds max for running tests
+  },
   namedAccounts: {
     deployer: {
       default: 0, // here this will by default take the first account as deployer
