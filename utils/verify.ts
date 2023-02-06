@@ -10,7 +10,7 @@ export async function waitForConfirmations(tx: TransactionResponse, waitConfirma
 }
 
 interface VerifyContract {
-  contractPath: string;
+  contractPath?: string;
   contractAddress: string;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   args: any[];

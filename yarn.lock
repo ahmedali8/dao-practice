@@ -28,7 +28,7 @@ __metadata:
     "@nomicfoundation/hardhat-chai-matchers": ^1.0.5
     "@nomicfoundation/hardhat-network-helpers": ^1.0.7
     "@nomicfoundation/hardhat-toolbox": ^2.0.1
-    "@nomiclabs/hardhat-ethers": ^2.2.2
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@0.3.0-beta.12"
     "@nomiclabs/hardhat-etherscan": ^3.1.5
     "@openzeppelin/contracts": ^4.8.1
     "@primitivefi/hardhat-dodoc": ^0.2.3
@@ -1489,13 +1489,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nomiclabs/hardhat-ethers@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "@nomiclabs/hardhat-ethers@npm:2.2.2"
+"@nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers@0.3.0-beta.12":
+  version: 0.3.0-beta.12
+  resolution: "hardhat-deploy-ethers@npm:0.3.0-beta.12"
   peerDependencies:
     ethers: ^5.0.0
     hardhat: ^2.0.0
-  checksum: f7b880cbb3fbf809b5d01619112231be9ef8dc3c2880960d2382813fa19b783670ee2d982ebd43d8867281ad82854ca0d16626c013d0d834eb3b19a65dc0c851
+  checksum: 4db85163ee0a58f0aa330a5bf63df33aef6fc99138829f51fd736c68e4058a4c3c70772e603d30d32a183d15f562d8cae32fc442b2184f9b1fcc8c6ad415c11b
   languageName: node
   linkType: hard
 
