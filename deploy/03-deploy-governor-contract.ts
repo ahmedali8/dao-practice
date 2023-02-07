@@ -1,5 +1,5 @@
-import { DeployFunction } from "hardhat-deploy/types";
-import { HardhatRuntimeEnvironment } from "hardhat/types";
+import type { DeployFunction } from "hardhat-deploy/types";
+import type { HardhatRuntimeEnvironment } from "hardhat/types";
 
 import { DEVELOPMENT_CHAINS } from "../config/networks";
 import { QUORUM_PERCENTAGE, VOTING_DELAY, VOTING_PERIOD } from "../utils/constants";

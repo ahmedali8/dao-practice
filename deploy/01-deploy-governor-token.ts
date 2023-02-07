@@ -1,6 +1,6 @@
 import { ethers } from "hardhat";
-import { DeployFunction } from "hardhat-deploy/types";
-import { HardhatRuntimeEnvironment } from "hardhat/types";
+import type { DeployFunction } from "hardhat-deploy/types";
+import type { HardhatRuntimeEnvironment } from "hardhat/types";
 
 import { DEVELOPMENT_CHAINS } from "../config/networks";
 import { verifyContract } from "../utils/verify";
