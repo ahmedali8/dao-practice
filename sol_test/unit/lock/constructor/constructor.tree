@@ -1,5 +1,0 @@
-constructor.t.sol
-├── when unlockTime is not in the future
-│  └── it should revert
-└── when unlockTime is in future
-   └── it should retrieve correct lockedAmount
